@@ -1,0 +1,36 @@
+{
+  "SFactoryEmailFormat": {
+    "NewUserAdded": [
+      "Machine Monitoring: New User Added Successfully",
+      "Your account has been created by {} as a {} in Machine Monitoring. You can access Machine Monitoring application from https://{}.<br><br> <strong> The following are your default access credentials. Please make sure to update your password after first sign-in.</strong><br> Your Email ID: {}<br> Your Password: {}<br><br> Use below HML unique code to access HML device.<br><br><strong>HMI: {}</strong><br><br>Login to explore more. If any issue please reach your account admin or write to us support@sfactrix.ai"
+    ],
+      "RqChangePwd": [
+      "Machine Monitoring: Reset Password",
+      "A request has been made to reset your Machine Monitoring account password for {}, Use below OTP to reset your password.<br><br><strong>OTP: {}</strong><br><br>If you did not make this request, simply ignore this message and your old password will continue to work. You may notify this incident to us by sending email to support@sfactrix.ai"
+    ],
+    "SucChangedPwd": [
+      "Machine Monitoring: Password Updated",
+      "Your password has been reset by {}.<br><br>If you have not reset the password, please login to https://{} and change your password immediately.<br><br>You may notify this incident us by sending email to support@sfactrix.ai"
+    ],
+    "ProfileUpdate": [
+      "Machine Monitoring: Profile Updated",
+      "You have successfully updated your profile for {}. If you have not updated your profile, please login to https://app.sfactrix.ai or contact the support team support@sfactrix.ai"
+    ],
+    "NewUserUpdated": [
+      "Machine Monitoring: New User Updated Successfully",
+      "Your account has been updated by {} as a {} in Machine Monitoring. You can access Machine Monitoring from https://app.sfactrix.ai.<br><br> Login to explore more. If any issue, please reach your account admin.<br><br>You may also notify this incident to us by sending email to support@sfactrix.ai"
+    ],
+    "NewUserDeleted": [
+      "Machine Monitoring: New User Deleted",
+      "Your account has been deleted by {} in Machine Monitoring. If any issue please reach your account admin.<br><br>You may notify this incident to us by sending email to support@sfactrix.ai"
+    ],
+    "NewRegister": [
+      "Machine Monitoring: Registration Confirmation",
+      "<p>Hello,</p><p>Your account has been created in Machine Monitoring for you.<p>Use below HML unique code to access HML device.<br><br><strong>HML: {}</strong><br><br> To get started with using our Machine Monitoring application, you should activate your account.</p><p> Activate your account by clicking below. This link will expire in 24 hours after this email was sent.</p><a href='{}' style='background-color:#404040;color:white;text-decoration:none;font-size:2em;'>&nbsp;Click here to verify&nbsp;</a><br><p>After account activation, You should receive confirmation email. If the above URL doesnâ€™t work, copy and paste the link into your browser. In case you are stuck, please write to <a href='mailto:support@sfactrix.ai'>support@sfactrix.ai</a> for assistance.</p><p><strong>Why you received this email.</strong><br>SFactrix requires verification to activate your account registration. Your account cannot be used until you verify it. If you did not make this request, you can ignore this email.</p>"
+    ],
+    "SucRegister": [
+      "Machine Monitoring: Account Activation",
+      "<p>Hello,</p><p>Your account has been activated now. You can now access our applicationâ€™s web portal from <a href=' https://app.sfactrix.ai'>https://app.sfactrix.ai/</a>.</p><p>To make your Machine Monitoring application experience greater, we provided the following tutorials, demo instructions and documentations below. Please go through all of them before you jump start your Digital Manufacturing journey.</p> Documentation: <a href='https://help.fogwing.io/'>https://help.fogwing.io</a><br> Tutorials: <a href='https://www.youtube.com/channel/UCWNDDcJpamF-slxw3zeNz2g'>https://www.youtube.com/channel/UCWNDDcJpamF-slxw3zeNz2g</a><br> Training Academy: <a href='https://academy.factana.com'>https://academy.factana.com</a><br> Support: <a href='mailto:support@sfactrix.ai'>support@sfactrix.ai</a><p>If you have any question on the application features, please reach us through Chatbot or Support Email. All the very best!</p>"
+    ]
+  }
+}

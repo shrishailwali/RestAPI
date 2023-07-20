@@ -1,0 +1,17 @@
+{"task": "dlog_process",
+             "data": {"org_id": 1059, "tenant_id": 1684, "application_id": 1703, "gateway_id": 2136, "client_id": "1059-1684-1703-2136", "data_received_time": "2023-06-25 14:00:42.584986", "created_by": "fizo125",
+             "payload": '{"asset_status": "Down", "cycle_time": 4 , "product_code":"flaks", "fault_reason_barcode": "12Fre324z90", "qty_produced":10, "qty_rejected":2, "rejection_reason":"crushed"}',
+               "tag": "production", "dlog_uuid": "Bgtr7687ijo0pppi9u8", "source": "Simulator", "is_gtw": True, "dlog_id": 12345},
+             "_metadata": {"tenant_type": "Enterprise"}}
+
+
+{'asset_status': 'Down', 'cycle_time': 4,'downtime_reason_barcode':'crushed', 'product_code': 'flaks', 'fw_tenant_id': 1684, 'fw_eui_id': 'fizo125', 'fw_application_id': 1703, 'data_received_time': '2023-06-25 14:00:42.584986',
+  'mm_tenant_id': 1234, 'mm_asset_id': 4, 'start_time': datetime.datetime(2023, 6, 26, 4, 12, 24, 538391), 'end_time': datetime.datetime(2023, 6, 26, 4, 12, 24, 538391), 'event_code': 666, 'asset_runtime': 0}
+
+{'asset_status': 'up', 'cycle_time': 4, 'product_code': 'flaks', 'qty_produced': 6'fw_tenant_id': 1684, 'fw_eui_id': 'fizo125',
+'fw_application_id': 1703, 'data_received_time': '2023-06-25 14:00:42.584986', 'mm_tenant_id': 1234, 'mm_asset_id': 4,
+'start_time': datetime.datetime(2023, 6, 26, 4, 12, 24, 538391), 'end_time': datetime.datetime(2023, 6, 26, 4, 12, 24, 538391), 'event_code': 777, 'asset_runtime': 0}
+
+{'qty_produced': 6, 'cycle_time': 4, 'product_code': 'flaks',
+'qty_rejected':  5, 'qty_produced':15 , 'rejection_reason': 'crushed products', 'fw_tenant_id': 1684, 'fw_eui_id': 'fizo125', 'fw_application_id': 1703, 'data_received_time': '2023-06-25 14:00:42.584986', 'mm_tenant_id': 1234, 'mm_asset_id': 4, 'start_time': datetime.datetime(2023, 6, 26, 4, 12, 24, 538391),
+'end_time': datetime.datetime(2023, 6, 26, 4, 12, 24, 538391), 'event_code': 888, 'asset_runtime': 0}

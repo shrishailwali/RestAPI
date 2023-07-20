@@ -1,0 +1,7 @@
+2023-07-03 22:33:37,058 - ERROR - task.py - insert_eventSequence - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalogTrigger\task.py, function insert_eventSequence: invalid INSERT on the root table of hypertable "_hyper_10_9_chunk"
+HINT:  Make sure the TimescaleDB extension has been preloaded.
+
+2023-07-04 07:59:27,280 - ERROR - task.py - event_log - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalogTrigger\task.py, function event_log: argument of CASE/WHEN must be type boolean, not type character varying
+LINE 2:                            timezone(case when sf_plant_tzone...
+                                                      ^
+

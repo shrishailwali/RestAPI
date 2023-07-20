@@ -1,0 +1,25 @@
+2023-07-04 15:38:38,672 - ERROR - task.py - insert_eventSequence - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function insert_eventSequence: relation "mm_quantity_log" does not exist
+LINE 1: select True from mm_quantity_log where fw_tenant_id = 4339 a...
+                         ^
+
+2023-07-04 15:39:19,552 - ERROR - task.py - insert_eventSequence - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function insert_eventSequence: 'timeslot'
+2023-07-04 16:19:31,583 - ERROR - task.py - insert_eventSequence - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function insert_eventSequence: 'timeslot'
+2023-07-04 16:19:54,512 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2023-07-04 16:21:44,414 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2023-07-04 18:14:31,859 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: invalid input syntax for type json
+LINE 4: ...                3,'motor', 'Bgtr7687ijo0pppi9u8', '{"asset_s...
+                                                             ^
+DETAIL:  Expected ":", but found "}".
+CONTEXT:  JSON data, line 1: ..."product_code":"biscket", "event_code":666, "re"}
+
+2023-07-05 12:56:12,740 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: 
+2023-07-05 12:56:22,746 - ERROR - task.py - event_listener - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function event_listener: 
+2023-07-05 17:16:03,471 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2023-07-05 17:20:29,666 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2023-07-05 17:23:38,863 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2023-07-05 17:25:15,397 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2023-07-05 17:26:30,069 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2023-07-06 11:26:48,581 - ERROR - task.py - dlog_receiver - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function dlog_receiver: (406, 'PRECONDITION_FAILED - unknown delivery tag 1')
+2023-07-06 11:29:10,513 - ERROR - task.py - available_log - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function available_log: sameAsset_status_Availablity() missing 1 required positional argument: 'conn'
+2023-07-06 11:29:10,624 - ERROR - task.py - available_log - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function available_log: sameAsset_status_Availablity() missing 1 required positional argument: 'conn'
+2023-07-06 11:30:15,827 - ERROR - task.py - available_log - An error occurred in C:\Users\Factana\PycharmProjects\oops\MMDatalog\task.py, function available_log: time data '2023-07-06 00:29:00' does not match format '%Y-%m-%d %H:%M:%S.%f'

@@ -1,0 +1,4 @@
+2023-07-07 15:54:23,516 - ERROR - task.py - dlog_receiver - An error occurred in c:\Users\Factana Computing\Downloads\oops\oops\MMDatalog\task.py, function dlog_receiver: 
+2023-07-07 15:54:33,518 - ERROR - task.py - event_listener - An error occurred in c:\Users\Factana Computing\Downloads\oops\oops\MMDatalog\task.py, function event_listener: 
+2023-07-07 15:54:43,909 - ERROR - task.py - dlog_receiver - An error occurred in c:\Users\Factana Computing\Downloads\oops\oops\MMDatalog\task.py, function dlog_receiver: 
+2023-07-07 15:54:59,334 - ERROR - task.py - dlog_receiver - An error occurred in c:\Users\Factana Computing\Downloads\oops\oops\MMDatalog\task.py, function dlog_receiver: 

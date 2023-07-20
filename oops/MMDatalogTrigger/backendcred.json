@@ -1,0 +1,14 @@
+{
+  "EMAIL_CRED":{
+    "EMAIL_USERNAME": "demo-no-reply@factana.com",
+    "EMAIL_PASSWORD": "FWEnterprise@123",
+    "EMAIL_HOST": "smtp.office365.com",
+    "EMAIL_PORT": "587"
+  },
+  "RABBIT_MQ_CRED": {
+    "QUEUE_PROCESS": "amqp://devsfactory:Devsfactory123@20.235.34.49:5672/vmmhost"
+  },
+  "DB_CRED_SFACTORY": {
+   "SF_DB_URL":"postgres://postgres:postgres@localhost:5432/machineplus"
+  }
+}
